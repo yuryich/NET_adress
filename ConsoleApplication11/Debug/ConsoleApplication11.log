@@ -1,0 +1,12 @@
+﻿  ConsoleApplication11.cpp
+c:\users\долгова елена\source\repos\consoleapplication11\consoleapplication11\consoleapplication11.cpp(40): error C2664: "void std::vector<Adress,std::allocator<_Ty>>::push_back(_Ty &&)": невозможно преобразовать аргумент 1 из "int" в "const _Ty &"
+          with
+          [
+              _Ty=Adress
+          ]
+  c:\users\долгова елена\source\repos\consoleapplication11\consoleapplication11\consoleapplication11.cpp(40): note: Причина: невозможно преобразовать "int" в "const _Ty"
+          with
+          [
+              _Ty=Adress
+          ]
+  c:\users\долгова елена\source\repos\consoleapplication11\consoleapplication11\consoleapplication11.cpp(40): note: Ни один конструктор не смог принять исходный тип, либо разрешение перегрузки конструктора неоднозначно
